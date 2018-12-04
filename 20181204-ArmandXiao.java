@@ -21,6 +21,6 @@ public class HiddenWord{
       else
         temp += "*";
       return temp;
-           
+          
   }
  }
