@@ -11,10 +11,11 @@ public class HiddenWord{
       for( int i = 0; i< s.length(); i++){
         if(s.substring(i,i+1).equals(current.substring(i,i+1)){
            temp += current.substring(i,i+1);
-        else if(current.indexOf(s.substring(i,i+1)!=-1)
+       else if(current.indexOf(s.substring(i,i+1)!=-1)
            temp += "+";
-      else
+       else
         temp += "*";
-      return temp;           
+               
   }
+   return temp;  
  }
